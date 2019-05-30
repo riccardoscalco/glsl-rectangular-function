@@ -1,0 +1,30 @@
+{
+  "name": "glsl-rectangular-function",
+  "version": "1.0.0",
+  "description": "glsl implementation of the rectangular function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "glslify test.glsl | glsl-testify | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/riccardoscalco/glsl-rectangular-function.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riccardoscalco/glsl-rectangular-function/issues"
+  },
+  "keywords": [
+    "glsl",
+    "rectangular function",
+    "step function",
+    "webgl",
+    "glslify",
+    "math"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "glsl-testify": "^1.0.0",
+    "glslify": "^7.0.0",
+    "tap-spec": "^5.0.0"
+  }
+}
